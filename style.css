@@ -415,7 +415,10 @@ flex-basis: 47%;
     transition: max-height 0.3s;
 
 }
-.settings-menu-height{}
+.settings-menu-height{
+
+    max-height: 450px;
+}
 .user-profile a{
     font-size: 12px;
     text-decoration: none;
