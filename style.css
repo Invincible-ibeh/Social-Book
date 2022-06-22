@@ -411,8 +411,11 @@ flex-basis: 47%;
     overflow: hidden;
     top:108%;
     right: 5%;
+    max-height: 0;
+    transition: max-height 0.3s;
 
 }
+.settings-menu-height{}
 .user-profile a{
     font-size: 12px;
     text-decoration: none;
