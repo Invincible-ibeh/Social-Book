@@ -9,7 +9,13 @@
 :root{
     --body-color: #efefef;
     --nav-color: #1876f2;
-    --bg-color: #fff
+    --bg-color: #fff;
+}
+
+.dark-theme{
+    --body-color: #0a0a0a;
+    --nav-color: #000;
+    --bg-color: #000;
 }
 
 body{
@@ -103,7 +109,7 @@ align-items: center;
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    background: #fff;
+    background: var(--bg-color);
     padding: 20px;
     border-radius: 4px;
     color: #626262;
@@ -271,7 +277,7 @@ flex-basis: 47%;
 }
 .write-post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -326,7 +332,7 @@ flex-basis: 47%;
 }
 .post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color:#626262;
